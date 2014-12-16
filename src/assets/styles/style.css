@@ -300,6 +300,7 @@ p {
 .mainImg img {
   width: 100%;
   height: 100%;
+  background-size: cover;
 }
 
 .new {
@@ -307,7 +308,7 @@ p {
   height: 33px;
   position: absolute;
   top: 39%;
-  left: 248px;
+  left: 249px;
   background: rgba(225, 225, 225, 0.5);
 }
 .new:before {
@@ -319,7 +320,7 @@ p {
   top: 13px;
   right: 75px;
   vertical-align: middle;
-  width: 85px;
+  width: 87px;
 }
 .new:after {
   background-color: white;
@@ -328,9 +329,9 @@ p {
   height: 1px;
   position: absolute;
   top: 13px;
-  left: 77px;
+  left: 75px;
   vertical-align: middle;
-  width: 85px;
+  width: 88px;
 }
 .new p {
   color: white;
@@ -421,7 +422,7 @@ p {
 }
 .block2:after {
   content: "";
-  width: 35px;
+  width: 30px;
   height: 100%;
   position: absolute;
   top: 13px;
