@@ -182,6 +182,12 @@ p {
   margin: 0;
 }
 
+body {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+}
+
 .container {
   max-width: 1360px;
   margin: 0 auto;
@@ -285,14 +291,15 @@ p {
   height: 340px;
   margin: 0 auto;
   position: relative;
+  z-index: 100;
 }
 .mainImg:before {
   content: "";
-  width: 35px;
+  width: 0px;
   height: 340px;
   position: absolute;
   top: -6px;
-  left: -36px;
+  left: -13px;
   z-index: 100;
   box-shadow: 0 0 2em 2em black;
   background: black;
@@ -369,14 +376,15 @@ p {
 .block {
   width: 43.333%;
   display: inline-block;
-  height: 600px;
+  height: 100vh;
   vertical-align: top;
   margin: 2%;
-  border: 1px solid black;
+  background: black;
 }
 
 .block1 {
   margin-right: 18px;
+  position: relative;
 }
 
 @-webkit-keyframes shine {
@@ -422,11 +430,15 @@ p {
 }
 .block2:after {
   content: "";
+<<<<<<< HEAD
   width: 30px;
+=======
+  width: 0px;
+>>>>>>> fe320790299ee9883408683fb349a1c8af14b949
   height: 100%;
   position: absolute;
   top: 13px;
-  right: -52px;
+  right: -20px;
   z-index: 100;
   box-shadow: 0 0 2em 2em black;
   background: black;
@@ -463,6 +475,8 @@ p {
   display: inline-block;
   margin-right: 2%;
   margin-top: 30px;
+  position: relative;
+  z-index: 100;
 }
 .qr img {
   width: 100%;
@@ -474,6 +488,8 @@ p {
   display: inline-block;
   vertical-align: top;
   margin-top: 15px;
+  position: relative;
+  z-index: 100;
 }
 .sale p {
   color: #c59f61;
