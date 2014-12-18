@@ -103,14 +103,14 @@ body {
 
 .mainImg {
 	width: 100%;
-	height: 340px;
+	height: 50%;
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
 	&:before {
 		content: "";
 		width: 0px;
-		height: 340px;
+		height: 100%;
 		position: absolute;
 		top: -6px;
 		left: -13px;
@@ -296,17 +296,18 @@ body {
 }
 
 #carousel {
-	div img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		overflow: hidden;
-	}
+	height: 100vh;
+		div img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			overflow: hidden;
+		}
 }
 
 #carousel div {
 	width: 400px;
-	height: 600px;
+	height: 90%;
 	margin-right: 15px;
 	margin-top: 22px;
 	padding: 0 20px;
