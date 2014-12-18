@@ -6,35 +6,34 @@ p {
 	margin: 0;
 }
 
+html,
 body {
-	background: black;
-	width: 100vw;
-	height: 100vh;
+	// background: black;
+	height: 100%;
 }
 
 .container {
 	max-width: 1360px;
-	// width: 90%;
 	margin: 0 auto;
 	text-align: center;
 	background: black;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	// height: 100vh;
+	width: 95%;
 }
 
-.blockContainer {
-	height: 100vh;
-	width: 100vh;
-}
+// .blockContainer {
+// 	height: 100vh;
+// }
 
 .brand {
 	z-index: 10;
 	position: relative;
-	height: 100px;
+	height: 20%;
 	&:before {
 		content: "upshop";
 		position: absolute;
-		top: 10px;
+		top: 8%;
 		left: 27%;
 		padding-bottom: 24px;
 		text-transform: uppercase;
@@ -103,7 +102,7 @@ body {
 
 .mainImg {
 	width: 100%;
-	height: 340px;
+	height: 50%;
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
@@ -125,12 +124,13 @@ body {
 	}
 }
 
+
 .new {
-	width: 75px;
-	height: 33px;
+	width: 15%;
+	height: 10%;
 	position: absolute;
 	top: 39%;
-	left: 249px;
+	left: 47%;
 	background: rgba(225, 225, 225, 0.5);
 	&:before {
 		background-color: white;
@@ -167,8 +167,8 @@ body {
 }
 
 .newBox {
-	width: 250px;
-	height: 100px;
+	width: 50%;
+	height: 35%;
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
 	border-left: 1px solid white; 
@@ -180,7 +180,7 @@ body {
 		color: white;
 		font-family: 'Playfair Display', serif;
 		font-size: 25px;
-		margin-top: 18px;
+		margin-top: 10%;
 		span.dark {
 			color: black;
 			font-weight: 600;
@@ -195,7 +195,7 @@ body {
 .block {
 	width: 43.333%;
 	display: inline-block;
-	height: 100vh;
+	height: 90%;
 	vertical-align: top;
 	margin: 2%;
 	background: black;
@@ -204,7 +204,7 @@ body {
 
 .block1 {
 	
-	margin-right: 18px;
+	margin-right: 1%;
 	// border: 1px solid red;
 	position: relative;
 	// h1 {
@@ -316,6 +316,7 @@ body {
 
 .qr {
 	width: 20%;
+	height: 18%;
 	display: inline-block;
 	margin-right: 2%;
 	margin-top: 30px;	
@@ -329,6 +330,7 @@ body {
 
 .sale {
 	width: 67%;
+	height: 20%;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 15px;
@@ -374,12 +376,21 @@ body {
 
 // }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1746px) {
 	.container {
 		width: 100vw;
 		height: 100vh;
 	}
 }
+
+@media screen and (min-width: 3840px) {
+	.container {
+		width: 100vw;
+		height: 100vh;
+	}
+}
+
+
 
 
 
