@@ -194,12 +194,11 @@ body {
   text-align: center;
   background: black;
   height: 100vh;
-  max-width: 100vw;
+  width: 100vw;
 }
 
 .blockContainer {
   height: 100vh;
-  width: 100vw;
 }
 
 .brand {
@@ -505,4 +504,11 @@ body {
   font-size: 23px;
   text-decoration: underline;
   line-height: 1;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
 }
