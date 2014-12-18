@@ -126,11 +126,11 @@ body {
 }
 
 .new {
-	width: 75px;
-	height: 33px;
+	width: 15%;
+	height: 10%;
 	position: absolute;
 	top: 39%;
-	left: 249px;
+	left: 45%;
 	background: rgba(225, 225, 225, 0.5);
 	&:before {
 		background-color: white;
@@ -139,9 +139,9 @@ body {
 	    height: 1px;
 	    position: absolute;
 	    top: 13px;
-	    right: 75px;
+	    right: 98%;
 	    vertical-align: middle;
-	    width: 87px;
+	    width: 108%;
 		}
 	&:after {
 		background-color: white;
@@ -150,9 +150,9 @@ body {
 	    height: 1px;
 	    position: absolute;
 	    top: 13px;
-	    left: 75px;
+	    left: 97%;
 	    vertical-align: middle;
-	    width: 88px;
+	    width: 100%;
 		}
 	p {
 		color: white;
@@ -167,8 +167,8 @@ body {
 }
 
 .newBox {
-	width: 250px;
-	height: 100px;
+	width: 45%;
+	height: 35%;
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
 	border-left: 1px solid white; 
@@ -180,7 +180,7 @@ body {
 		color: white;
 		font-family: 'Playfair Display', serif;
 		font-size: 25px;
-		margin-top: 18px;
+		margin-top: 10%;
 		span.dark {
 			color: black;
 			font-weight: 600;
