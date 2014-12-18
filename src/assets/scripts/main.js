@@ -11,23 +11,15 @@ $(function() {
 			duration: 6000,
 			timeoutDuration: 0
 		}
-		// pagination: {
-		// 	container: '#pager',
-		// 	items: 1,
-		// 	duration: 0.5,
-		// 	queue: 'last',
-		// 	onAfter: function() {
-		// 		var cur = $(this).triggerHandler( 'currentVisible' ),
-		// 			mid = Math.floor( cur.length / 2 );
-
-		// 		cur.eq( mid ).addClass( 'hover' );
-		// 	}
-		// }
+		
 	});
 
 	$('.caroufredsel_wrapper').css({
-		'width': '100%',
-		'height': '100vh'
+		'width': '100%'
+		// 'height': '100vh'
 	});
+
+	var viewHeight = $(window).height();
+	$('#carousel').css('height', viewHeight);
 
 });
