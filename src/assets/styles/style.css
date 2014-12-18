@@ -343,7 +343,7 @@ body {
   top: 13px;
   left: 97%;
   vertical-align: middle;
-  width: 100%;
+  width: 96%;
 }
 .new p {
   color: white;
@@ -367,7 +367,7 @@ body {
   text-transform: uppercase;
   color: white;
   font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-size: 28px;
   margin-top: 10%;
 }
 .newBox p span.dark {

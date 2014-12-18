@@ -134,25 +134,25 @@ body {
 	background: rgba(225, 225, 225, 0.5);
 	&:before {
 		background-color: white;
-	    content: "";
-	    display: inline-block;
-	    height: 1px;
-	    position: absolute;
-	    top: 13px;
-	    right: 98%;
-	    vertical-align: middle;
-	    width: 108%;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: absolute;
+		top: 13px;
+		right: 98%;
+		vertical-align: middle;
+		width: 108%;
 		}
 	&:after {
 		background-color: white;
-	    content: "";
-	    display: inline-block;
-	    height: 1px;
-	    position: absolute;
-	    top: 13px;
-	    left: 97%;
-	    vertical-align: middle;
-	    width: 100%;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: absolute;
+		top: 13px;
+		left: 97%;
+		vertical-align: middle;
+		width: 96%;
 		}
 	p {
 		color: white;
@@ -171,7 +171,7 @@ body {
 	height: 35%;
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
-	border-left: 1px solid white; 
+	border-left: 1px solid white;
 	position: absolute;
 	top: 43%;
 	left: 29%;
@@ -179,7 +179,7 @@ body {
 		text-transform: uppercase;
 		color: white;
 		font-family: 'Playfair Display', serif;
-		font-size: 25px;
+		font-size: 28px;
 		margin-top: 10%;
 		span.dark {
 			color: black;
