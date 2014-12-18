@@ -189,10 +189,14 @@ body {
 }
 
 .container {
-  max-width: 1360px;
   margin: 0 auto;
   text-align: center;
   background: black;
+  height: 100vh;
+  max-width: 100vw;
+}
+
+.blockContainer {
   height: 100vh;
   width: 100vw;
 }
@@ -430,11 +434,8 @@ body {
 }
 .block2:after {
   content: "";
-<<<<<<< HEAD
   width: 30px;
-=======
   width: 0px;
->>>>>>> fe320790299ee9883408683fb349a1c8af14b949
   height: 100%;
   position: absolute;
   top: 13px;
