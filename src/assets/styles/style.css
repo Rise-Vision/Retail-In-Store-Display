@@ -526,5 +526,6 @@ html {
 
   #carousel {
     height: 100vh;
+    width: 100vw;
   }
 }
