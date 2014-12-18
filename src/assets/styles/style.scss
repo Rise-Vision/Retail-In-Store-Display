@@ -30,7 +30,7 @@ body {
 .brand {
 	z-index: 10;
 	position: relative;
-	height: 100px;
+	height: 18%;
 	&:before {
 		content: "upshop";
 		position: absolute;
@@ -195,10 +195,11 @@ body {
 .block {
 	width: 43.333%;
 	display: inline-block;
-	height: 100vh;
+	height: 90%;
 	vertical-align: top;
 	margin: 2%;
 	background: black;
+	background: red;
 
 }
 
@@ -316,6 +317,7 @@ body {
 
 .qr {
 	width: 20%;
+	height: 15%;
 	display: inline-block;
 	margin-right: 2%;
 	margin-top: 30px;	
@@ -329,6 +331,7 @@ body {
 
 .sale {
 	width: 67%;
+	height: 19%;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 15px;
@@ -340,7 +343,7 @@ body {
 		font-style: italic;
 		font-size: 18px;
 		letter-spacing: 1px;
-		margin-top: 16px;
+		margin-top: 6%;
 		span {
 			font-size: 23px;
 			text-decoration: underline;
