@@ -15,11 +15,11 @@ $(function() {
 	});
 
 	$('.caroufredsel_wrapper').css({
-		'width': '100%'
-		// 'height': '100vh'
+		'width': '100%',
+		'height': '100vh'
 	});
 
-	var viewHeight = $(window).height();
-	$('#carousel').css('height', viewHeight);
+	// var viewHeight = $(window).height();
+	// $('#carousel').css('height', viewHeight);
 
 });
