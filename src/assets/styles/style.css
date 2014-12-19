@@ -366,7 +366,7 @@ html {
   display: inline-block;
   height: 90%;
   vertical-align: top;
-  margin: 2%;
+  margin: 3%;
   background: black;
 }
 
@@ -411,7 +411,7 @@ html {
   height: 100%;
   position: absolute;
   top: 1%;
-  left: -7%;
+  left: -8%;
   z-index: 100;
   box-shadow: 0 0 2em 2em black;
   background: black;
@@ -446,7 +446,7 @@ html {
 }
 
 #carousel div {
-  width: 20%;
+  width: 400px;
   height: 90%;
   margin-right: 15px;
   margin-top: 22px;
@@ -457,8 +457,8 @@ html {
 }
 
 .qr {
-  width: 20%;
-  height: 15%;
+  width: 10vw;
+  height: 17vh;
   display: inline-block;
   margin-right: 2%;
   margin-top: 30px;
@@ -493,13 +493,13 @@ html {
   line-height: 1;
 }
 
-@media screen and (max-width: 1480px) {
+@media screen and (min-width: 1480px) {
   .container {
     width: 100vw;
     height: 100vh;
   }
 }
-@media screen and (max-width: 3840px) {
+@media screen and (min-width: 3840px) {
   .container {
     max-width: 3840px;
     width: 100vw;
@@ -509,5 +509,8 @@ html {
   #carousel {
     height: 100vh;
     width: 100vw;
+  }
+  #carousel div {
+    width: 600px;
   }
 }
