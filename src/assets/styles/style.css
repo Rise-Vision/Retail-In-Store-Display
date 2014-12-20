@@ -521,13 +521,13 @@ html {
   }
 
   .qr {
-    width: 8vw;
-    height: 14vh;
+    width: 10vw;
+    height: 18vh;
     margin-top: 70px;
   }
 
   .sale p {
-    font-size: 1.3vw;
+    font-size: 1.6vw;
   }
 
   .brand:before {
@@ -542,7 +542,7 @@ html {
     border-top: 1px solid white;
   }
   .newBox p {
-    top: 9%;
+    margin-top: 8%;
   }
 
   .new:before,
