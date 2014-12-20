@@ -506,7 +506,7 @@ html {
 }
 @media screen and (min-width: 3840px) {
   .container {
-    max-width: 4800px;
+    max-width: 5300px;
     width: 100vw;
     height: 100vh;
   }
@@ -516,7 +516,7 @@ html {
     width: 100vw;
   }
   #carousel div {
-    width: 1000px;
+    width: 1500px;
     margin-top: 90px;
   }
 
@@ -531,7 +531,7 @@ html {
   }
 
   .brand:before {
-    left: 20%;
+    left: 25%;
   }
 
   .new {
@@ -540,6 +540,9 @@ html {
 
   .newBox {
     border-top: 1px solid white;
+  }
+  .newBox p {
+    top: 9%;
   }
 
   .new:before,
