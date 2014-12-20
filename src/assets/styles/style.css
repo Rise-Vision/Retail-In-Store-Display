@@ -312,7 +312,7 @@ html {
   display: inline-block;
   height: 1px;
   position: absolute;
-  top: 13px;
+  top: 34%;
   right: 98%;
   vertical-align: middle;
   width: 108%;
@@ -323,7 +323,7 @@ html {
   display: inline-block;
   height: 1px;
   position: absolute;
-  top: 13px;
+  top: 34%;
   left: 97%;
   vertical-align: middle;
   width: 96%;
@@ -499,9 +499,14 @@ html {
     height: 100vh;
   }
 }
+@media screen and (min-width: 2000px) {
+  .new p {
+    font-size: 1.5vw;
+  }
+}
 @media screen and (min-width: 3840px) {
   .container {
-    max-width: 3840px;
+    max-width: 4800px;
     width: 100vw;
     height: 100vh;
   }
@@ -511,6 +516,38 @@ html {
     width: 100vw;
   }
   #carousel div {
-    width: 600px;
+    width: 1000px;
+    margin-top: 90px;
+  }
+
+  .qr {
+    width: 8vw;
+    height: 14vh;
+    margin-top: 70px;
+  }
+
+  .sale p {
+    font-size: 1.3vw;
+  }
+
+  .brand:before {
+    left: 20%;
+  }
+
+  .new {
+    top: 39%;
+  }
+
+  .newBox {
+    border-top: 1px solid white;
+  }
+
+  .new:before,
+  .new:after {
+    top: 30%;
+  }
+
+  .new p {
+    font-size: 1.5vw;
   }
 }

@@ -138,7 +138,7 @@ html {
 		display: inline-block;
 		height: 1px;
 		position: absolute;
-		top: 13px;
+		top: 34%;
 		right: 98%;
 		vertical-align: middle;
 		width: 108%;
@@ -149,7 +149,7 @@ html {
 		display: inline-block;
 		height: 1px;
 		position: absolute;
-		top: 13px;
+		top: 34%;
 		left: 97%;
 		vertical-align: middle;
 		width: 96%;
@@ -362,9 +362,27 @@ html {
 	}
 }
 
+@media screen and (min-width: 2000px) {
+	.new p {
+		font-size: 1.5vw;
+	}
+}
+
+// @media screen and (min-width: 2500px) {
+// 	.block2 {
+// 		background: red;
+// 	}
+// }
+
+// @media screen and (min-width: 3700px) {
+// 	.block2 {
+// 		background: yellow;
+// 	}
+// }
+
 @media screen and (min-width: 3840px) {
 	.container {
-		max-width: 3840px;
+		max-width: 4800px;
 		width: 100vw;
 		height: 100vh;
 	}
@@ -373,8 +391,51 @@ html {
 		height: 100vh;
 		width: 100vw;
 		div {
-			width: 600px;
+			width: 1000px;
+			margin-top: 90px
 		}
+	}
+
+	.qr {
+		width: 8vw;
+		height: 14vh;
+		margin-top: 70px;
+	}
+
+	.sale p {
+		font-size: 1.3vw;
+	} 
+
+	.brand:before {
+		left: 20%;
+	}
+
+	.new {
+		top: 39%;
+	}
+
+	.newBox {
+		border-top: 1px solid white;
+	}
+
+	.new:before,
+	.new:after {
+		top: 30%;
+	}
+
+	// .block2 {
+	// 	background: green;
+	// }
+
+	// .new:before,
+	// .new:after {
+	// 	top: 5%;
+	// }
+	
+	
+
+	.new p {
+		font-size: 1.5vw;
 	}
 }
 
