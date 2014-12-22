@@ -297,7 +297,7 @@ h1 {
   width: 15%;
   height: 10%;
   position: absolute;
-  top: 39%;
+  top: 38%;
   left: 42%;
   background: rgba(225, 225, 225, 0.5);
 }
@@ -306,7 +306,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   margin-top: -2%;
   letter-spacing: 4px;
-  font-size: 1.5vw;
+  font-size: 1.9vw;
 }
 
 .newBox {
