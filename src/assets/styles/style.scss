@@ -34,7 +34,7 @@ html {
 	&:before {
 		content: "upshop";
 		position: absolute;
-		top: 5%;
+		top: -1%;
 		left: 23%;
 		padding-bottom: 24px;
 		text-transform: uppercase;
@@ -132,34 +132,34 @@ html {
 	top: 40%;
 	left: 45%;
 	background: rgba(225, 225, 225, 0.5);
-	&:before {
-		background-color: white;
-		content: "";
-		display: inline-block;
-		height: 1px;
-		position: absolute;
-		top: 34%;
-		right: 98%;
-		vertical-align: middle;
-		width: 108%;
-		}
-	&:after {
-		background-color: white;
-		content: "";
-		display: inline-block;
-		height: 1px;
-		position: absolute;
-		top: 34%;
-		left: 97%;
-		vertical-align: middle;
-		width: 96%;
-		}
+	// &:before {
+	// 	background-color: white;
+	// 	content: "";
+	// 	display: inline-block;
+	// 	height: 1px;
+	// 	position: absolute;
+	// 	top: 34%;
+	// 	right: 98%;
+	// 	vertical-align: middle;
+	// 	width: 108%;
+	// 	}
+	// &:after {
+	// 	background-color: white;
+	// 	content: "";
+	// 	display: inline-block;
+	// 	height: 1px;
+	// 	position: absolute;
+	// 	top: 34%;
+	// 	left: 97%;
+	// 	vertical-align: middle;
+	// 	width: 96%;
+	// 	}
 	p {
 		color: white;
 		font-family: 'Playfair Display', serif;
 		margin-top: 1%;
 		letter-spacing: 4px;
-		font-size: 2vw;
+		font-size: 1.5vw;
 
 
 	}	
@@ -172,6 +172,7 @@ html {
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
 	border-left: 1px solid white;
+	border-top: 1px solid white;
 	position: absolute;
 	top: 43%;
 	left: 29%;
@@ -195,10 +196,11 @@ html {
 .block {
 	width: 43.333%;
 	display: inline-block;
-	height: 90%;
+	height: 91%;
 	vertical-align: top;
 	margin: 3%;
 	background: black;
+	// background: red;
 
 }
 
@@ -277,7 +279,7 @@ html {
 		height: 100%;
 		position: absolute;
 		top: 1%;
-		right: 0%;
+		right: -4%;
 		z-index: 100;
 		box-shadow: 0 0 2em 2em black;
 		background: black;
@@ -323,7 +325,7 @@ html {
 	height: 17vh;
 	display: inline-block;
 	margin-right: 2%;
-	margin-top: 30px;	
+	margin-top: 6%;	
 	position: relative;
 	z-index: 100;
 	img {
@@ -344,7 +346,7 @@ html {
 		color: $gold;
 		font-family: 'Cardo', serif;
 		font-style: italic;
-		font-size: 1.5vw;
+		font-size: 1.6vw;
 		letter-spacing: 1px;
 		margin-top: 6%;
 		span {
