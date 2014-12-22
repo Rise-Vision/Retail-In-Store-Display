@@ -436,7 +436,7 @@ h1 {
   width: 10vw;
   display: inline-block;
   margin-right: 1%;
-  margin-top: 12.5%;
+  margin-top: 10.5%;
   position: relative;
   z-index: 100;
 }
@@ -450,7 +450,7 @@ h1 {
   height: 19%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 11.8%;
+  margin-top: 9.8%;
   position: relative;
   z-index: 100;
 }
@@ -491,7 +491,7 @@ h1 {
     font-size: 1.5vw;
   }
 }
-@media screen and (min-width: 2500px) {
+@media screen and (min-width: 2500px) and (max-width: 3840px) {
   .container {
     max-width: 5300px;
     width: 100vw;
@@ -507,7 +507,7 @@ h1 {
   }
 
   .qr {
-    margin-top: 14%;
+    margin-top: 11%;
   }
 
   .sale p {
