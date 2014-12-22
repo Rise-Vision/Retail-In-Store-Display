@@ -224,7 +224,7 @@ h1 {
 .brand {
   z-index: 10;
   position: relative;
-  height: 24%;
+  height: 25.5%;
 }
 
 @keyframes move-twink-back {
@@ -279,14 +279,13 @@ h1 {
 }
 .mainImg:before {
   content: "";
-  width: 0%;
+  width: 1%;
   height: 100%;
   position: absolute;
   top: 1%;
   left: -1%;
   z-index: 100;
-  box-shadow: 0 0 2em 2em black;
-  background: black;
+  box-shadow: 0 0 2em 1em black;
 }
 .mainImg img {
   width: 100%;
@@ -387,10 +386,9 @@ h1 {
   height: 100%;
   position: absolute;
   top: 1%;
-  left: -8%;
-  z-index: 100;
+  left: -7%;
+  z-index: 10000;
   box-shadow: 0 0 2em 2em black;
-  background: black;
 }
 .block2:after {
   content: "";
@@ -398,9 +396,9 @@ h1 {
   height: 100%;
   position: absolute;
   top: 1%;
-  right: -2%;
+  right: -1%;
   z-index: 100;
-  box-shadow: 0 0 2em 2em black;
+  box-shadow: 0 0 1em 1em black;
   background: black;
 }
 
@@ -409,6 +407,7 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 100;
 }
 
 #carousel {
@@ -436,8 +435,8 @@ h1 {
 .qr {
   width: 10vw;
   display: inline-block;
-  margin-right: 0%;
-  margin-top: 9%;
+  margin-right: 1%;
+  margin-top: 12.5%;
   position: relative;
   z-index: 100;
 }
@@ -451,7 +450,7 @@ h1 {
   height: 19%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 7%;
+  margin-top: 11.8%;
   position: relative;
   z-index: 100;
 }
@@ -508,12 +507,12 @@ h1 {
   }
 
   .qr {
-    margin-top: 9%;
+    margin-top: 14%;
   }
 
   .sale p {
     font-size: 2vw;
-    margin-top: 4%;
+    margin-top: 0%;
   }
 
   .brand:before {
