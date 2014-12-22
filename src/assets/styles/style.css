@@ -189,8 +189,26 @@ html {
   height: 100%;
 }
 
+h1 {
+  margin-top: -5%;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 7vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #c59f61;
+  background-image: -webkit-linear-gradient(-45deg, #c59f61 30%, #e9dbc3 50%, #c59f61 70%);
+  background-blend-mode: hard-light;
+  background-size: 200%;
+  -webkit-animation: shine 3s infinite;
+  z-index: 10;
+}
+
 .container {
-  max-width: 1700px;
+  max-width: 1800px;
   margin: 0 auto;
   text-align: center;
   background: black;
@@ -206,28 +224,7 @@ html {
 .brand {
   z-index: 10;
   position: relative;
-  height: 18%;
-}
-.brand:before {
-  content: "upshop";
-  position: absolute;
-  top: -1%;
-  left: 23%;
-  padding-bottom: 24px;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 5vw;
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-  text-align: center;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: #c59f61;
-  background-image: -webkit-linear-gradient(-45deg, #c59f61 30%, #e9dbc3 50%, #c59f61 70%);
-  background-blend-mode: hard-light;
-  background-size: 200%;
-  -webkit-animation: shine 3s infinite;
-  z-index: 10;
+  height: 24%;
 }
 
 @keyframes move-twink-back {
@@ -276,7 +273,6 @@ html {
 
 .mainImg {
   width: 100%;
-  height: 55%;
   margin: 0 auto;
   position: relative;
   z-index: 100;
@@ -294,29 +290,29 @@ html {
 }
 .mainImg img {
   width: 100%;
-  height: 100%;
+  height: auto;
   background-size: cover;
 }
 
 .new {
   width: 15%;
-  height: 8%;
+  height: 10%;
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 39%;
+  left: 42%;
   background: rgba(225, 225, 225, 0.5);
 }
 .new p {
   color: white;
   font-family: 'Playfair Display', serif;
-  margin-top: 1%;
+  margin-top: -2%;
   letter-spacing: 4px;
   font-size: 1.5vw;
 }
 
 .newBox {
-  width: 45%;
-  height: 30%;
+  width: 40%;
+  height: 35%;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   border-left: 1px solid white;
@@ -347,10 +343,11 @@ html {
   vertical-align: top;
   margin: 3%;
   background: black;
+  margin-top: 2.8%;
 }
 
 .block1 {
-  margin-right: 18px;
+  margin-right: 7px;
   position: relative;
 }
 
@@ -428,9 +425,8 @@ html {
 #carousel div {
   -webkit-transform: translate3d(0, 0, 0);
   width: 400px;
-  height: 89vh;
+  height: 94.6%;
   margin-right: 2%;
-  margin-top: 22px;
   padding: 0 20px;
   position: relative;
   float: left;
@@ -439,10 +435,9 @@ html {
 
 .qr {
   width: 10vw;
-  height: 17vh;
   display: inline-block;
-  margin-right: 2%;
-  margin-top: 6%;
+  margin-right: 0%;
+  margin-top: 9%;
   position: relative;
   z-index: 100;
 }
@@ -456,7 +451,7 @@ html {
   height: 19%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 15px;
+  margin-top: 7%;
   position: relative;
   z-index: 100;
 }
@@ -464,9 +459,8 @@ html {
   color: #c59f61;
   font-family: 'Cardo', serif;
   font-style: italic;
-  font-size: 1.6vw;
+  font-size: 2vw;
   letter-spacing: 1px;
-  margin-top: 6%;
 }
 .sale p span {
   font-size: 2vw;
@@ -511,17 +505,15 @@ html {
   }
   #carousel div {
     width: 1500px;
-    margin-top: 90px;
   }
 
   .qr {
-    width: 10vw;
-    height: 18vh;
-    margin-top: 70px;
+    margin-top: 9%;
   }
 
   .sale p {
-    font-size: 1.6vw;
+    font-size: 2vw;
+    margin-top: 4%;
   }
 
   .brand:before {
@@ -530,6 +522,9 @@ html {
 
   .new {
     top: 39%;
+  }
+  .new p {
+    font-size: 1.5vw;
   }
 
   .newBox {
@@ -542,9 +537,5 @@ html {
   .new:before,
   .new:after {
     top: 30%;
-  }
-
-  .new p {
-    font-size: 1.5vw;
   }
 }

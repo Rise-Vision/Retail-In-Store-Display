@@ -13,8 +13,28 @@ html {
 	height: 100%;
 }
 
+
+h1 {
+	margin-top: -5%;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 7vw;
+	font-family: 'Playfair Display', serif;
+	 font-weight: 500;
+	 text-align: center;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 color: #c59f61;
+	 background-image: -webkit-linear-gradient(-45deg, #c59f61 30%, #E9DBC3 50%, #c59f61 70%);
+	 background-blend-mode: hard-light;
+	 background-size: 200%;
+	 -webkit-animation: shine 3s infinite;
+	 z-index: 10;
+
+}
+
 .container {
-	max-width: 1700px;
+	max-width: 1800px;
 	margin: 0 auto;
 	text-align: center;
 	background: black;
@@ -30,29 +50,29 @@ html {
 .brand {
 	z-index: 10;
 	position: relative;
-	height: 18%;
-	&:before {
-		content: "upshop";
-		position: absolute;
-		top: -1%;
-		left: 23%;
-		padding-bottom: 24px;
-		text-transform: uppercase;
-				letter-spacing: 10px;
-				font-size: 5vw;
-				font-family: 'Playfair Display', serif;
-				 font-weight: 500;
-				 text-align: center;
-				 -webkit-background-clip: text;
-				 -webkit-text-fill-color: transparent;
-				 color: #c59f61;
-				 background-image: -webkit-linear-gradient(-45deg, #c59f61 30%, #E9DBC3 50%, #c59f61 70%);
-				 background-blend-mode: hard-light;
-				 background-size: 200%;
-				 -webkit-animation: shine 3s infinite;
-				 z-index: 10;
+	height: 24%;
+	// &:before {
+	// 	content: "upshop";
+	// 	position: absolute;
+	// 	top: -19%;
+	// 	left: 23%;
+	// 	padding-bottom: 24px;
+	// 	text-transform: uppercase;
+	// 			letter-spacing: 10px;
+	// 			font-size: 5vw;
+	// 			font-family: 'Playfair Display', serif;
+	// 			 font-weight: 500;
+	// 			 text-align: center;
+	// 			 -webkit-background-clip: text;
+	// 			 -webkit-text-fill-color: transparent;
+	// 			 color: #c59f61;
+	// 			 background-image: -webkit-linear-gradient(-45deg, #c59f61 30%, #E9DBC3 50%, #c59f61 70%);
+	// 			 background-blend-mode: hard-light;
+	// 			 background-size: 200%;
+	// 			 -webkit-animation: shine 3s infinite;
+	// 			 z-index: 10;
 				
-	}
+	// }
 }
 
 @keyframes move-twink-back {
@@ -63,14 +83,7 @@ html {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
-// @-moz-keyframes move-twink-back {
-//     from {background-position:0 0;}
-//     to {background-position:-10000px 5000px;}
-// }
-// @-ms-keyframes move-twink-back {
-//     from {background-position:0 0;}
-//     to {background-position:-10000px 5000px;}
-// }
+
 
 
 .stars, .twinkling {
@@ -103,7 +116,7 @@ html {
 
 .mainImg {
 	width: 100%;
-	height: 55%;
+	// height: 55%;
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
@@ -120,17 +133,17 @@ html {
 	}
 	img {
 		width: 100%;
-		height: 100%;
+		height: auto;
 		background-size: cover;
 	}
 }
 
 .new {
 	width: 15%;
-	height: 8%;
+	height: 10%;
 	position: absolute;
-	top: 40%;
-	left: 45%;
+	top: 39%;
+	left: 42%;
 	background: rgba(225, 225, 225, 0.5);
 	// &:before {
 	// 	background-color: white;
@@ -157,7 +170,7 @@ html {
 	p {
 		color: white;
 		font-family: 'Playfair Display', serif;
-		margin-top: 1%;
+		margin-top: -2%;
 		letter-spacing: 4px;
 		font-size: 1.5vw;
 
@@ -167,8 +180,8 @@ html {
 }
 
 .newBox {
-	width: 45%;
-	height: 30%;
+	width: 40%;
+	height: 35%;
 	border-right: 1px solid white;
 	border-bottom: 1px solid white;
 	border-left: 1px solid white;
@@ -200,14 +213,14 @@ html {
 	vertical-align: top;
 	margin: 3%;
 	background: black;
-	// background: red;
+	margin-top: 2.8%;
 
 }
 
 .block1 {
 	
-	margin-right: 18px;
-	// border: 1px solid red;
+	margin-right: 7px;
+	
 	position: relative;
 	// h1 {
 	// 	padding-bottom: 24px;
@@ -262,6 +275,7 @@ html {
 
 .block2 {
 	position: relative;
+	
 	&:before {
 		content: "";
 		width: 6%;
@@ -310,9 +324,9 @@ html {
 #carousel div {
 	-webkit-transform: translate3d(0,0,0);
 	width: 400px;
-	height: 89vh;
+	height: 94.6%;
 	margin-right: 2%;
-	margin-top: 22px;
+	// margin-top: 22px;
 	padding: 0 20px;
 	position: relative;
 	float: left;
@@ -321,10 +335,9 @@ html {
 
 .qr {
 	width: 10vw;
-	height: 17vh;
 	display: inline-block;
-	margin-right: 2%;
-	margin-top: 6%;	
+	margin-right: 0%;
+	margin-top: 9%;	
 	position: relative;
 	z-index: 100;
 	img {
@@ -338,16 +351,16 @@ html {
 	height: 19%;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 15px;
+	margin-top: 7%;
 	position: relative;
 	z-index: 100;
 	p {
 		color: $gold;
 		font-family: 'Cardo', serif;
 		font-style: italic;
-		font-size: 1.6vw;
+		font-size: 2vw;
 		letter-spacing: 1px;
-		margin-top: 6%;
+		// margin-top: 6%;
 		span {
 			font-size: 2vw;
 			text-decoration: underline;
@@ -356,7 +369,19 @@ html {
 	}
 }
 
+// @media screen and (max-width: 1280px) and (min-width: 480px) {
+// 	.newBox p {
+// 		font-size: 26px;
+// 	}
 
+// 	.new p {
+// 		font-size: 21px;
+// 	}
+
+// 	h1 {
+// 		font-size: 60px;
+// 	}
+// }
 
 @media screen and (min-width: 1480px) {
 	.container {
@@ -398,18 +423,17 @@ html {
 		width: 100vw;
 		div {
 			width: 1500px;
-			margin-top: 90px
+			
 		}
 	}
 
 	.qr {
-		width: 10vw;
-		height: 18vh;
-		margin-top: 70px;
+		margin-top: 9%;
 	}
 
 	.sale p {
-		font-size: 1.6vw;
+		font-size: 2vw;
+		margin-top: 4%;
 	} 
 
 	.brand:before {
@@ -418,6 +442,9 @@ html {
 
 	.new {
 		top: 39%;
+		p {
+			font-size: 1.5vw;
+		}
 	}
 
 	.newBox {
@@ -433,10 +460,6 @@ html {
 	}
 
 	
-
-	.new p {
-		font-size: 1.5vw;
-	}
 }
 
 
