@@ -8,7 +8,7 @@ $(function() {
 		auto: {
 			items: 1,
 			easing: 'linear',
-			duration: 6000,
+			duration: 7000,
 			timeoutDuration: 0
 		}
 		

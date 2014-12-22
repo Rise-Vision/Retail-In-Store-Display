@@ -407,7 +407,7 @@ html {
 }
 .block2:before {
   content: "";
-  width: 4%;
+  width: 6%;
   height: 100%;
   position: absolute;
   top: 1%;
@@ -448,7 +448,7 @@ html {
 #carousel div {
   width: 400px;
   height: 90%;
-  margin-right: 15px;
+  margin-right: 2%;
   margin-top: 22px;
   padding: 0 20px;
   position: relative;
@@ -497,6 +497,15 @@ html {
   .container {
     width: 100vw;
     height: 100vh;
+  }
+}
+@media screen and (min-width: 1911px) {
+  .new p {
+    font-size: 1.5vw;
+  }
+
+  .new {
+    height: 8%;
   }
 }
 @media screen and (min-width: 2000px) {
