@@ -492,7 +492,7 @@ h1 {
     font-size: 1.5vw;
   }
 }
-@media screen and (min-width: 3840px) {
+@media screen and (min-width: 2500px) {
   .container {
     max-width: 5300px;
     width: 100vw;
@@ -504,7 +504,7 @@ h1 {
     width: 100vw;
   }
   #carousel div {
-    width: 1500px;
+    width: 1000px;
   }
 
   .qr {
@@ -532,6 +532,7 @@ h1 {
   }
   .newBox p {
     margin-top: 8%;
+    font-size: 2vw;
   }
 
   .new:before,
