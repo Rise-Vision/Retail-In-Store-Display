@@ -343,7 +343,7 @@ html {
 .block {
   width: 43.333%;
   display: inline-block;
-  height: 91%;
+  height: 90%;
   vertical-align: top;
   margin: 3%;
   background: black;
@@ -401,7 +401,7 @@ html {
   height: 100%;
   position: absolute;
   top: 1%;
-  right: -4%;
+  right: -2%;
   z-index: 100;
   box-shadow: 0 0 2em 2em black;
   background: black;
@@ -428,7 +428,7 @@ html {
 #carousel div {
   -webkit-transform: translate3d(0, 0, 0);
   width: 400px;
-  height: 90%;
+  height: 89vh;
   margin-right: 2%;
   margin-top: 22px;
   padding: 0 20px;
