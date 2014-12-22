@@ -372,6 +372,10 @@ html {
 	.new {
 		height: 8%;
 	}
+
+	#carousel div {
+		width: 500px;
+	}
 } 
 
 @media screen and (min-width: 2000px) {
@@ -380,17 +384,6 @@ html {
 	}
 }
 
-// @media screen and (min-width: 2500px) {
-// 	.block2 {
-// 		background: red;
-// 	}
-// }
-
-// @media screen and (min-width: 3700px) {
-// 	.block2 {
-// 		background: yellow;
-// 	}
-// }
 
 @media screen and (min-width: 3840px) {
 	.container {

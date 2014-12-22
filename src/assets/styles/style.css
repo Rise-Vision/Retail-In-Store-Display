@@ -509,6 +509,10 @@ html {
   .new {
     height: 8%;
   }
+
+  #carousel div {
+    width: 500px;
+  }
 }
 @media screen and (min-width: 2000px) {
   .new p {
