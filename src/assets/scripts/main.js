@@ -8,7 +8,7 @@ $(function() {
 		auto: {
 			items: 1,
 			easing: 'linear',
-			duration: 7000,
+			duration: 6000,
 			timeoutDuration: 0
 		}
 		
@@ -18,8 +18,5 @@ $(function() {
 		'width': '100%',
 		'height': '100vh'
 	});
-
-	// var viewHeight = $(window).height();
-	// $('#carousel').css('height', viewHeight);
 
 });
