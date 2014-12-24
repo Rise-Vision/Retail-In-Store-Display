@@ -8,15 +8,15 @@ $(function() {
 		auto: {
 			items: 1,
 			easing: 'linear',
-			duration: 6000,
+			duration: 9000,
 			timeoutDuration: 0
 		}
 		
 	});
 
-	$('.caroufredsel_wrapper').css({
-		'width': '100%',
-		'height': '100vh'
-	});
+	// $('.caroufredsel_wrapper').css({
+	// 	'width': '100%',
+	// 	'height': '100vh'
+	// });
 
 });
