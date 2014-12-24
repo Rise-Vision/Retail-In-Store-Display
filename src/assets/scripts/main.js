@@ -14,6 +14,8 @@ $(function() {
 		
 	});
 
+	window.requestAnimationFrame(callback);
+
 	// $('.caroufredsel_wrapper').css({
 	// 	'width': '100%',
 	// 	'height': '100vh'
