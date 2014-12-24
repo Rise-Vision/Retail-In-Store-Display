@@ -411,7 +411,6 @@ h1 {
 }
 
 #carousel {
-  -webkit-transform: translate3d(0, 0, 0);
   height: 100vh;
 }
 #carousel div img {
