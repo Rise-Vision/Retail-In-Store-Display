@@ -21,10 +21,10 @@ $(document).ready(function(){
   $('.bxslider').bxSlider({
     minSlides: 2,
     maxSlides: 2,
-    slideWidth: 700,
+    slideWidth: 400,
     slideMargin: 10,
     ticker: true,
-    speed: 10000
+    speed: 9500
   });
 
   $('.bxslider li').css({
