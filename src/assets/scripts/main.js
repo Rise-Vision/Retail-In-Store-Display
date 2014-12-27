@@ -19,16 +19,16 @@
 
 $(document).ready(function(){
   $('.bxslider').bxSlider({
-    minSlides: 2,
-    maxSlides: 2,
-    slideWidth: 400,
+    minSlides: 1,
+    maxSlides: 4,
+    slideWidth: 700,
     slideMargin: 10,
     ticker: true,
     speed: 9500
   });
 
-  $('.bxslider li').css({
-  	width: 400
+  $('.bxslider-wrapper').css({
+  	maxWidth: none
   });
 });
 
