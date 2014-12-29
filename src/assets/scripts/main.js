@@ -18,18 +18,25 @@
 // });
 
 $(document).ready(function(){
-  $('.bxslider').bxSlider({
-    minSlides: 1,
-    maxSlides: 4,
-    slideWidth: 700,
-    slideMargin: 10,
-    ticker: true,
-    speed: 9500
-  });
+  // $('.bxslider').bxSlider({
+  //   minSlides: 1,
+  //   maxSlides: 4,
+  //   slideWidth: 700,
+  //   slideMargin: 10,
+  //   ticker: true,
+  //   speed: 9500
+  // });
 
-  $('.bxslider-wrapper').css({
-  	maxWidth: none
-  });
+	$('.bxslider').bxSlider({
+	  auto: true,
+	  autoControls: true,
+	  hideControlOnEnd: true,
+	  controls: false,
+	  nextText: "",
+	  prevText: ""
+	});
+
+  
 });
 
 

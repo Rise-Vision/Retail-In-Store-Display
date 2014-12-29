@@ -45,7 +45,6 @@
     	transform: translatez(0);
 }
 
-.bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
 	bottom: -30px;
@@ -67,23 +66,23 @@
 
 /* PAGER */
 
-.bx-wrapper .bx-pager {
+/*.bx-wrapper .bx-pager {
 	text-align: center;
 	font-size: .85em;
 	font-family: Arial;
 	font-weight: bold;
 	color: #666;
 	padding-top: 20px;
-}
+}*/
 
-.bx-wrapper .bx-pager .bx-pager-item,
+/*.bx-wrapper .bx-pager .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
 	display: inline-block;
 	*zoom: 1;
 	*display: inline;
-}
+}*/
 
-.bx-wrapper .bx-pager.bx-default-pager a {
+/*.bx-wrapper .bx-pager.bx-default-pager a {
 	background: #666;
 	text-indent: -9999px;
 	display: block;
@@ -94,16 +93,16 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-}
+}*/
 
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
+/*.bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #000;
-}
+}*/
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-.bx-wrapper .bx-prev {
+/*.bx-wrapper .bx-prev {
 	left: 10px;
 	background: url(images/controls.png) no-repeat 0 -32px;
 }
@@ -112,16 +111,16 @@
 	right: 10px;
 	background: url(images/controls.png) no-repeat -43px -32px;
 }
-
-.bx-wrapper .bx-prev:hover {
+*/
+/*.bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
 }
 
 .bx-wrapper .bx-next:hover {
 	background-position: -43px 0;
-}
+}*/
 
-.bx-wrapper .bx-controls-direction a {
+/*.bx-wrapper .bx-controls-direction a {
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;
@@ -130,11 +129,11 @@
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;
-}
+}*/
 
-.bx-wrapper .bx-controls-direction a.disabled {
+/*.bx-wrapper .bx-controls-direction a.disabled {
 	display: none;
-}
+}*/
 
 /* AUTO CONTROLS (START / STOP) */
 
@@ -175,18 +174,16 @@
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
-	text-align: left;
-	width: 80%;
+	display: none;
 }
 
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
-	right: 0;
-	width: 35px;
+	display: none;
 }
 
 /* IMAGE CAPTIONS */
 
-.bx-wrapper .bx-caption {
+/*.bx-wrapper .bx-caption {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -201,4 +198,4 @@
 	display: block;
 	font-size: .85em;
 	padding: 10px;
-}
+}*/

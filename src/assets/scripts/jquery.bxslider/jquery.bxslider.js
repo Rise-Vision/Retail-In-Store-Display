@@ -51,17 +51,17 @@
 		buildPager: null,
 		pagerCustom: null,
 
-		// CONTROLS
-		// controls: false,
-		// nextText: 'Next',
-		// prevText: 'Prev',
-		// nextSelector: null,
-		// prevSelector: null,
-		// autoControls: false,
-		// startText: 'Start',
-		// stopText: 'Stop',
-		// autoControlsCombine: false,
-		// autoControlsSelector: null,
+		CONTROLS
+		controls: false,
+		nextText: 'Next',
+		prevText: 'Prev',
+		nextSelector: null,
+		prevSelector: null,
+		autoControls: false,
+		startText: 'Start',
+		stopText: 'Stop',
+		autoControlsCombine: false,
+		autoControlsSelector: null,
 
 		// AUTO
 		auto: true,
