@@ -204,6 +204,7 @@ h1 {
   background-blend-mode: hard-light;
   background-size: 200%;
   -webkit-animation: shine 3s infinite;
+  transform: transale3d(0, 0, 0);
   z-index: 10;
 }
 
@@ -254,6 +255,7 @@ h1 {
   width: 100%;
   height: 100%;
   display: block;
+  transform: transale3d(0, 0, 0);
 }
 
 .stars {
@@ -269,6 +271,7 @@ h1 {
   -o-animation: move-twink-back 200s linear infinite;
   -webkit-animation: move-twink-back 200s linear infinite;
   animation: move-twink-back 200s linear infinite;
+  transform: transale3d(0, 0, 0);
 }
 
 .mainImg {
@@ -359,24 +362,6 @@ h1 {
     background-position: -50%;
   }
 }
-@-webkit-keyframes hover {
-  from {
-    transform: translateY(-50%);
-  }
-
-  to {
-    transform: translateY(-75%);
-  }
-}
-@-webkit-keyframes hoverSmall {
-  from {
-    transform: translateY(30%) rotate(45deg);
-  }
-
-  to {
-    transform: translateY(-10%) rotate(45deg);
-  }
-}
 .block2 {
   position: relative;
 }
@@ -409,6 +394,7 @@ h1 {
 .bx-wrapper {
   z-index: 100;
   height: 100%;
+  max-width: 1000;
 }
 
 .bxslider li {
@@ -423,8 +409,8 @@ h1 {
 .qr {
   width: 10vw;
   display: inline-block;
-  margin-right: 1%;
-  margin-top: 10.5%;
+  margin-right: 4%;
+  margin-top: 9.5%;
   position: relative;
   z-index: 100;
 }
@@ -438,7 +424,7 @@ h1 {
   height: 19%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 9.8%;
+  margin-top: 8.8%;
   position: relative;
   z-index: 100;
 }
@@ -461,7 +447,7 @@ h1 {
     height: 100vh;
   }
 }
-@media screen and (min-width: 1911px) {
+@media screen and (min-width: 1911px) and (max-width: 2000px) {
   .new p {
     font-size: 1.5vw;
   }
@@ -472,6 +458,14 @@ h1 {
 
   #carousel div {
     width: 500px;
+  }
+
+  .qr {
+    margin-top: 13.5%;
+  }
+
+  .sale {
+    margin-top: 12.8%;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -486,21 +480,25 @@ h1 {
     height: 100vh;
   }
 
-  #carousel {
-    height: 100vh;
-    width: 100vw;
-  }
-  #carousel div {
-    width: 900px;
+  .bxslider-wrapper {
+    max-width: 1000px;
   }
 
   .qr {
     margin-top: 11%;
   }
 
+  .sale {
+    margin-top: 9.8%;
+  }
+
   .sale p {
     font-size: 2vw;
     margin-top: 0%;
+  }
+
+  .brand {
+    height: 24.5%;
   }
 
   .brand:before {
