@@ -321,13 +321,17 @@ h1 {
 }
 
 
-
+// .moreInfo {
+// 	border: 1px solid white;
+// 	height: 8vh;
+// 	width: 100%;
+// }
 
 .qr {
 	width: 10vw;
 	display: inline-block;
 	margin-right: 4%;
-	margin-top: 12.5%;	
+	margin-top: 9.5%;	
 	position: relative;
 	z-index: 100;
 	img {
@@ -337,11 +341,10 @@ h1 {
 }
 
 .sale {
-	width: 67%;
-	height: 19%;
+	width: 28vw;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 11.8%;
+	margin-top: 8.8%;
 	position: relative;
 	z-index: 100;
 	p {
@@ -358,6 +361,13 @@ h1 {
 		}
 	}
 }
+
+// .moreInfo {
+// 	position: relative;
+// 	border: 2px solid white;
+// 	height: 28vh;
+// }
+
 
 // @media screen and (max-width: 1280px) and (min-width: 480px) {
 // 	.newBox p {
@@ -382,9 +392,6 @@ h1 {
 
 @media screen and (min-width: 1911px) and (max-width: 2000px) {
 	
-	.container {
-		max-width: 5300px;
-	}
 
 	.new p {
 		font-size: 1.8vw;
