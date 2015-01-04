@@ -449,11 +449,11 @@ h1 {
 }
 @media screen and (min-width: 1911px) and (max-width: 2000px) {
   .new p {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
   }
 
   .new {
-    height: 8%;
+    height: 10%;
   }
 
   #carousel div {
@@ -470,7 +470,7 @@ h1 {
 }
 @media screen and (min-width: 2000px) {
   .new p {
-    font-size: 1.5vw;
+    font-size: 1.8vw;
   }
 }
 @media screen and (min-width: 2500px) {
@@ -506,10 +506,10 @@ h1 {
   }
 
   .new {
-    top: 39%;
+    top: 38%;
   }
   .new p {
-    font-size: 1.5vw;
+    font-size: 1.9vw;
   }
 
   .newBox {
