@@ -301,11 +301,12 @@ h1 {
   height: 10%;
   position: absolute;
   top: 38%;
-  left: 42%;
-  background: rgba(225, 225, 225, 0.5);
+  left: 41.5%;
+  z-index: 100;
+  background: black;
 }
 .new p {
-  color: white;
+  color: #c59f61;
   font-family: 'Playfair Display', serif;
   margin-top: -2%;
   letter-spacing: 4px;
@@ -315,10 +316,10 @@ h1 {
 .newBox {
   width: 40%;
   height: 35%;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
-  border-top: 1px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-top: 3px solid white;
   position: absolute;
   top: 43%;
   left: 29%;
@@ -506,9 +507,6 @@ h1 {
     font-size: 1.9vw;
   }
 
-  .newBox {
-    border-top: 1px solid white;
-  }
   .newBox p {
     margin-top: 8%;
     font-size: 2vw;
