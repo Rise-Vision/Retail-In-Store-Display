@@ -33,7 +33,9 @@ $(document).ready(function(){
 	  hideControlOnEnd: true,
 	  controls: false,
 	  nextText: "",
-	  prevText: ""
+	  prevText: "",
+	  pause: 6000,
+	  speed: 1000
 	});
 
   
