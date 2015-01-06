@@ -52,28 +52,6 @@ h1 {
 	z-index: 10;
 	position: relative;
 	height: 25.5%;
-	// &:before {
-	// 	content: "upshop";
-	// 	position: absolute;
-	// 	top: -19%;
-	// 	left: 23%;
-	// 	padding-bottom: 24px;
-	// 	text-transform: uppercase;
-	// 			letter-spacing: 10px;
-	// 			font-size: 5vw;
-	// 			font-family: 'Playfair Display', serif;
-	// 			 font-weight: 500;
-	// 			 text-align: center;
-	// 			 -webkit-background-clip: text;
-	// 			 -webkit-text-fill-color: transparent;
-	// 			 color: #c59f61;
-	// 			 background-image: -webkit-linear-gradient(-45deg, #c59f61 30%, #E9DBC3 50%, #c59f61 70%);
-	// 			 background-blend-mode: hard-light;
-	// 			 background-size: 200%;
-	// 			 -webkit-animation: shine 3s infinite;
-	// 			 z-index: 10;
-				
-	// }
 }
 
 @keyframes move-twink-back {
@@ -147,30 +125,7 @@ h1 {
 	top: 38%;
 	left: 41.5%;
 	z-index: 100;
-	// background: rgba(225, 225, 225, 0.5);
 	background: black;
-	// &:before {
-	// 	background-color: white;
-	// 	content: "";
-	// 	display: inline-block;
-	// 	height: 1px;
-	// 	position: absolute;
-	// 	top: 34%;
-	// 	right: 98%;
-	// 	vertical-align: middle;
-	// 	width: 108%;
-	// 	}
-	// &:after {
-	// 	background-color: white;
-	// 	content: "";
-	// 	display: inline-block;
-	// 	height: 1px;
-	// 	position: absolute;
-	// 	top: 34%;
-	// 	left: 97%;
-	// 	vertical-align: middle;
-	// 	width: 96%;
-	// 	}
 	p {
 		color: $gold;
 		font-family: 'Playfair Display', serif;
@@ -186,7 +141,7 @@ h1 {
 .newBox {
 	width: 40%;
 	height: 35%;
-	border: 2px solid white;
+	border: 1px solid white;
 	position: absolute;
 	top: 43%;
 	left: 29%;

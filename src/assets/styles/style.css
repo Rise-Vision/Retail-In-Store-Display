@@ -316,7 +316,7 @@ h1 {
 .newBox {
   width: 40%;
   height: 35%;
-  border: 2px solid white;
+  border: 1px solid white;
   position: absolute;
   top: 43%;
   left: 29%;
