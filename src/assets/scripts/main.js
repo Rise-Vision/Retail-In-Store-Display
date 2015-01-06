@@ -35,7 +35,7 @@ $(document).ready(function(){
 	  nextText: "",
 	  prevText: "",
 	  pause: 6000,
-	  speed: 1000
+	  speed: 600
 	});
 
   
