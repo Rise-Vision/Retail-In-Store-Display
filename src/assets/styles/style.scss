@@ -264,40 +264,6 @@ h1 {
 	
 }
 
-// .wrapper {
-// 	width: 100%;
-// 	position: absolute;
-// 	top: 0;
-// 	left: 0;
-// 	z-index: 100;
-// }
-
-
-
-// #carousel {
-// 	// -webkit-transform: translate3d(0,0,0);
-// 	height: 100vh;
-// 	// -webkit-transform: translate3d(0,0,0);
-// 		div img {
-// 			width: 100%;
-// 			height: 100%;
-// 			object-fit: cover;
-// 			overflow: hidden;
-			
-// 		}
-// }
-
-// #carousel div {
-// 	// -webkit-transform: translate3d(0,0,0);
-// 	width: 400px;
-// 	height: 94.6%;
-// 	margin-right: 2%;
-// 	// margin-top: 22px;
-// 	padding: 0 20px;
-// 	position: relative;
-// 	float: left;
-// 	padding: 0;
-// }
 
 .bxslider {
 	z-index: 1000;
@@ -319,13 +285,6 @@ h1 {
 	}
 }
 
-
-// .moreInfo {
-// 	border: 1px solid white;
-// 	height: 8vh;
-// 	width: 100%;
-// }
-
 .moreInfo {
 	position: absolute;
 	bottom: 0%;
@@ -338,9 +297,6 @@ h1 {
 	width: 10vw;
 	display: inline-block;
 	margin-right: 2.7vw;
-	// margin-top: 9.5vh;	
-	// position: relative;
-	// z-index: 100;
 	img {
 		width: 100%;
 		height: 100%;
@@ -351,16 +307,12 @@ h1 {
 	width: 28vw;
 	display: inline-block;
 	vertical-align: top;
-	// margin-top: 8.8vh;
-	// position: relative;
-	// z-index: 100;
 	p {
 		color: $gold;
 		font-family: 'Cardo', serif;
 		font-style: italic;
 		font-size: 2vw;
 		letter-spacing: 1px;
-		// margin-top: 6%;
 		span {
 			font-size: 2.5vw;
 			text-decoration: underline;
@@ -369,26 +321,6 @@ h1 {
 	}
 }
 
-// .moreInfo {
-// 	position: relative;
-// 	border: 2px solid white;
-// 	height: 28vh;
-// }
-
-
-// @media screen and (max-width: 1280px) and (min-width: 480px) {
-// 	.newBox p {
-// 		font-size: 26px;
-// 	}
-
-// 	.new p {
-// 		font-size: 21px;
-// 	}
-
-// 	h1 {
-// 		font-size: 60px;
-// 	}
-// }
 
 @media screen and (min-width: 1480px) {
 	.container {
@@ -421,15 +353,6 @@ h1 {
 		left: -5%;
 	}
 
-
-	// .qr {
-	// 	margin-top: 13.5%;
-	// }
-	
-	// .sale {
-	// 	margin-top: 12.8%;
-	// }
-
 } 
 
 
@@ -452,23 +375,6 @@ h1 {
 	.bxslider-wrapper {
 		max-width: 1000px;
 	}
-
-	// #carousel {
-	// 	height: 100vh;
-	// 	width: 100vw;
-	// 	div {
-	// 		width: 900px;
-			
-	// 	}
-	// }
-
-	// .qr {
-	// 	margin-top: 14%;
-	// }
-
-	// .sale {
-	// 	margin-top: 12.8%;
-	// }
 
 	.sale p {
 		font-size: 2vw;
