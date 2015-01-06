@@ -164,7 +164,7 @@ body {
 
 h1 {
   margin: 0;
-  margin-top: 25px;
+  margin-top: 30px;
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -182,18 +182,21 @@ p {
   font-size: 30px;
   letter-spacing: 1px;
 }
+p span {
+  font-size: 35px;
+}
 
 .container {
   max-width: 1200px;
   width: 90%;
   background: black;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
 input {
-  margin: 20px;
+  margin-bottom: 50px;
   background: black;
   border: none;
   border-bottom: 1px solid #c59f61;
@@ -220,6 +223,7 @@ input[type=submit] {
   font-size: 30px;
   font-family: 'Cardo', serif;
   font-style: italic;
+  margin-top: 30px;
 }
 
 ::-webkit-input-placeholder {
