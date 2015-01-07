@@ -1,8 +1,7 @@
 Retail-In-Store-Display
 =======================
-<<<<<<< HEAD
-[Visit Site here](http://Rise-Vision.github.com/Retail-In-Store-Display/)
+
+[Visit Site here](http://Rise-Vision.github.com/Retail-In-Store-Display/src/index.html)
 =======
 
 This is a template for a retail in-store display. 
->>>>>>> fe320790299ee9883408683fb349a1c8af14b949
